@@ -1,0 +1,23 @@
+{
+  "name": "My TimeSheet Break Calc",
+  "version": "0.1.0",
+  "description": "My TimeSheet Break Calc and add in window",
+  "permissions": ["storage", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*/*","http://*/*"],
+      "js": ["jquery1.js","content.js"],
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/icon.png",
+      "24": "assets/icon.png",
+      "32": "assets/icon.png"
+    },
+    "default_title": "My TimeSheet Break Calc",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
