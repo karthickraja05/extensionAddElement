@@ -1,6 +1,6 @@
 {
   "name": "My TimeSheet Break Calc",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "My TimeSheet Break Calc and add in window",
   "permissions": ["storage", "activeTab"],
   "content_scripts": [
